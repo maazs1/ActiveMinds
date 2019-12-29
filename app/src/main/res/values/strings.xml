@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ActiveMindsApp</string>
+    <string name="title_activity_user_page">UserPage</string>
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up"><u>Sign Up.</u></string>
+    <string name="submit">&#160;&#160;SUBMIT&#160;&#160;</string>
+    <string name="signUpBtn">&#160;&#160;SIGN UP&#160;&#160;</string>
+    <string name="goBackBtn">&#160;&#160;GO BACK&#160;&#160;</string>
+    <string name="alreadyExist">Already have an account?</string>
+    <string name="following">Following: </string>
+    <string name="followers">Followers: </string>
+    <string name="sign_in"><u>Sign In.</u></string>
+    <string name="empty">Username or password can not be empty</string>
+    <string name="wrongAccount">Username or password is incorrect</string>
+    <string name="dneAccount">Account does not exists</string>
+    <string name="existAccount">Account already exists</string>
+    <string name="accountCreated">Account created</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logging_in">Logging In</string>
+    <string name="created">Account created! Click on Signin to Login</string>
+
+    <!--feedActivity-->
+    <string name="follow">&#160;&#160;&#160;&#160;FOLLOW&#160;&#160;&#160;&#160;</string>
+    <string name="request_sent">REQUEST SENT</string>
+    <string name="recent_mood">Recent Mood</string>
+
+    <!--UserFeedActivity-->
+    <string name="feed">Feed</string>
+    <string name="user">User</string>
+    <string name="profile">Profile</string>
+    <string name="maps">Maps</string>
+
+
+    <string name="logout">&#160;&#160;&#160;&#160;Logout&#160;&#160;&#160;&#160;</string>
+
+    <!--CreateEventActivity-->
+    <string name="roster_title">How are you feeling?</string>
+    <string name="emoticon_choice_btn">SELECT</string>
+    <string name="new_mood_event">New Mood Event</string>
+    <string name="title_activity_mood_map">Map</string>
+    <string name="title_activity_user_feed_map">Map</string>
+
+    <!--followerActivity-->
+    <string name="follow_user">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="cancel_request">Cancel Request</string>
+
+</resources>

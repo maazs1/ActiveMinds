@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "11607081308",
+    "firebase_url": "https://activeminds-460fa.firebaseio.com",
+    "project_id": "activeminds-460fa",
+    "storage_bucket": "activeminds-460fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11607081308:android:347fb501e67e5600a88199",
+        "android_client_info": {
+          "package_name": "com.example.activemindsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11607081308-m5mm3bv1a096rj45mtpumi36srmuf9pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdugOXRr-U0Lh5xVZV9CIsbmfvf1zYuas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11607081308-m5mm3bv1a096rj45mtpumi36srmuf9pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
