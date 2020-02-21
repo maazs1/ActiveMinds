@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -59,14 +60,14 @@ public class UserPage extends AppCompatActivity {
     private MoodEventsAdapter postAdapter;
     private RecyclerTouchListener recyclerTouchListener;
 
-
+    private ImageView resourceButton;
     private  SearchView userSearchView;
-    private Button feedButton;
+    private ImageView feedButton;
 
     private Date moodTimeStamp;
-    private ImageButton userProfile;
+    private ImageView userProfile;
 
-    private ImageButton mapButton;
+    private ImageView mapButton;
 
 
     //Firebase setup!
@@ -99,7 +100,7 @@ public class UserPage extends AppCompatActivity {
         }
         documentReference = db.collection("Users Account").document(accountName);
         collectionReference = db.collection("Users Account").document(accountName).collection("MoodActivities");
-
+        resourceButton = findViewById(R.id.resource);
         userSearchView = findViewById(R.id.userSearchView);
 
         createPostBtnClickListener(accountName);
@@ -108,14 +109,12 @@ public class UserPage extends AppCompatActivity {
         moodEventAdapterSetup();
         setRecyclerTouchListener();
 
-        //maaz's filter implementation
         filterMood();
         selectFeed(accountName);
 
         goToProfile();
+        HubResource();
 
-
-        //Max's map implementation
         openMoodMap();
 
     } //end of onCreate
@@ -162,6 +161,18 @@ public class UserPage extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         postList.addOnItemTouchListener(recyclerTouchListener);
+    }
+
+    private void HubResource() {
+        resourceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserPage.this, HubPage.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 
     /**

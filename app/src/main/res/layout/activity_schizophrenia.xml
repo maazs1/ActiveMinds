@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schizophrenia"
+    android:background="#1e7145"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#1e7145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_yellow" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffc40d"
+            android:text="SCHIZOPHRENIA"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Schizophrenia is a complex mental illness that affects how a person thinks, feels, behaves and relates to others. The illness occurs in both men and women, but it is slightly more common in men. The first episode typically occurs in the late teens to early twenties—usually earlier for men than for women"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffc40d"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Positive and Negative Symptoms Explained"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Schizophrenia includes “positive” and “negative” symptoms of psychosis, as well as cognitive symptoms"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Positive symptoms are those that add to or distort the person’s normal functioning"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Negative symptoms involve normal functioning becoming lost or reduced"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Cognitive symptoms include difficulties with attention, concentration and memory"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffc40d"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Psychosis is a Common Symptom of Schizophrenia"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Psychosis causes an individual to lose touch with reality. You might see, hear, or believe things that aren’t real. Psychosis is a symptom, not an illness. Psychosis is a common symptom of schizophrenia (the disorder)"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffc40d"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Typical Positive Symptoms of Schizophrenia"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Delusions (false beliefs that are firmly held and are out of keeping with the person’s culture)"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Hallucinations (hearing, seeing, tasting, smelling or feeling something that is not actually there)"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Disorganized speech, thoughts or behaviour (e.g., switching rapidly between subjects in speaking; finding it hard to concentrate or follow a conversation; being unable to complete everyday tasks)"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffc40d"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Typical Negative Symptoms of Schizophrenia"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Restricted emotional and facial expression"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Restricted speech and verbal fluency"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Difficulty with generating ideas or thoughts"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Reduced ability to begin tasks"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Reduced socialization and motivation"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/findHelp"
+                android:text="Find Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_yellow"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

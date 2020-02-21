@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YWCAEdmonton"
+    android:background="#1e7145"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#1e7145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_yellow" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="YWCA Edmonton"
+            android:textSize="33sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            android:textColor="#ffc40d"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Provides counselling based on your financial ability, starts as low as $5/hr. You do not have to identify as female. YWCA also facilitates groups specializing in anger management and trauma."
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="counselling@ywcaedm.org "
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empire Building, #400, 10080 Jasper Avenue, Edmonton, AB T5J 1V9"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: "
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 780-423-9922"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

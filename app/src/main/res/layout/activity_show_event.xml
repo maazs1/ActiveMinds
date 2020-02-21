@@ -31,6 +31,7 @@
                     android:id="@+id/back_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
                     android:layout_margin="15dp">
 
                     <ImageView
@@ -57,12 +58,12 @@
 
                     <!--User Name-->
                     <TextView
+                        android:fontFamily="@font/alef"
                         android:id="@+id/author"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
-                        android:fontFamily="@font/roboto"
                         android:letterSpacing="0.1"
                         android:text="John Doe"
                         android:textAlignment="center"
@@ -71,10 +72,10 @@
 
                     <!--felt-->
                     <TextView
+                        android:fontFamily="@font/alef"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:fontFamily="@font/roboto"
                         android:text="felt"
                         android:textAlignment="center"
                         android:textColor="#fff"
@@ -105,7 +106,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="20dp"
-                        android:fontFamily="@font/roboto"
+                        android:fontFamily="@font/alef"
                         android:text="on"
                         android:textAlignment="center"
                         android:textColor="#fff"
@@ -118,19 +119,19 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="8dp"
-                        android:fontFamily="@font/roboto"
+                        android:fontFamily="@font/alef"
                         android:text="Jan 14, 2100"
                         android:textColor="#fff"
                         android:textSize="20sp" />
 
                     <!--TIME-->
                     <TextView
+                        android:fontFamily="@font/alef"
                         android:id="@+id/time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="20dp"
-                        android:fontFamily=""
                         android:text="9:00 pm"
                         android:textColor="#fff"
                         android:textSize="20sp" />
@@ -180,7 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:fontFamily="@font/roboto"
+                    android:fontFamily="@font/alef"
                     android:text="at"
                     android:textAlignment="center"
                     android:textColor="#fff"
@@ -200,7 +201,7 @@
                     android:id="@+id/address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto"
+                    android:fontFamily="@font/alef"
                     android:textSize="20sp"
                     android:layout_marginRight="35dp"
                     android:layout_marginLeft="35dp"
@@ -220,6 +221,7 @@
 
                 <!--Social Situation-->
                 <TextView
+                    android:fontFamily="@font/alef"
                     android:id="@+id/social_situation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -244,7 +246,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:fontFamily="@font/roboto"
+                    android:fontFamily="@font/alef"
                     android:text="because"
                     android:textAlignment="center"
                     android:textColor="#fff"
@@ -261,6 +263,7 @@
                     android:layout_marginLeft="20dp" />
 
                 <TextView
+                    android:fontFamily="@font/alef"
                     android:id="@+id/reason"
                     android:textStyle="italic"
                     android:layout_marginTop="15dp"
@@ -276,6 +279,7 @@
 
             <!--EDIT BUTTON-->
             <Button
+                android:fontFamily="@font/alef"
                 android:id="@+id/edit_button"
                 android:text="EDIT THIS POST"
                 android:layout_width="match_parent"
@@ -288,7 +292,7 @@
                 android:background="@drawable/round_gray"
                 android:textColor="#FFF"
                 android:padding="10dp"
-                android:fontFamily="@font/roboto">
+                >
             </Button>
 
             <!--GO BACK-->
@@ -304,7 +308,7 @@
                 android:background="@drawable/round_yellow"
                 android:textColor="#FFF"
                 android:padding="10dp"
-                android:fontFamily="@font/roboto">
+                android:fontFamily="@font/alef">
             </Button>
 
         </LinearLayout>

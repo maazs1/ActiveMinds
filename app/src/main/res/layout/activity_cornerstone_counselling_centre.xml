@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CornerstoneCounsellingCentre"
+    android:background="#1e7145"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#1e7145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_yellow" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Cornerstone Counselling Centre"
+            android:textSize="33sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            android:textColor="#ffc40d"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sliding-scale payment system. Student counsellors on site at a rate of $20 per counselling hour for those without benefits and whose gross household income is less than $40,000 per year. Student counsellors are supervised by one of our registered psychologists or a counsellor with at least 5 years of experience. Offers walk-in and individual counselling. Walk-in counselling gives you the opportunity to share during a single-time, 90-minute session. During this session you will have the chance to talk about your life in a safe and supportive space. Through this dialogue, the student counsellor will listen, help you reflect on your challenges, and develop possible solutions"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hours:"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday-Thursday: 8:30 am – 8:30 pm"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friday: 8:30 am – 4:30 pm"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday: 8:30 am – 3:30 pm"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunday: closed"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="302, 10140 - 117 Street NW Edmonton, AB T5K 1X3"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: "
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="780-482-6215"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:fontFamily="@font/alef"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+    </LinearLayout>
+
+
+
+</ScrollView>

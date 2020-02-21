@@ -94,7 +94,7 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
     private final FirebaseFirestore db = FirebaseFirestore.getInstance();
     private DocumentReference documentReference;
 
-    private TextView socialSituation, imgToggleTxt, gpsToggleTxt, dateAndTimeMood, actTitle;
+    private TextView socialSituation, imgToggleTxt, gpsToggleTxt, dateAndTimeMood, actTitle, moodIndicator;
     private EditText reason;
 
     //for image upload
@@ -126,7 +126,7 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
     private String locationAddress;
     private Double locationLatitude;
     private Double locationLongitude;
-
+    private Button cancelButton;
     protected MoodEvent moodEvent;
 
     @Override
@@ -139,6 +139,7 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
         socialSituation = findViewById(R.id.social_situation);
         imageUpload = findViewById(R.id.image_reason);
         dateAndTimeMood = findViewById((R.id.date_and_time));
+        moodIndicator = findViewById(R.id.emotion_indicator);
         actTitle = findViewById(R.id.title_txt);
         viewFlipper = findViewById(R.id.view_flipper);
         backButton = findViewById(R.id.back_btn);
@@ -149,6 +150,7 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
         chosenEmoticon = findViewById(R.id.chosen_emoticon);
         imgToggleTxt = findViewById(R.id.img_toggle_txt);
         gpsToggleTxt = findViewById(R.id.gps_toggle_txt);
+        cancelButton = findViewById(R.id.cancel_button);
 
         //flip to second child on ViewFlipper ie don't start with mood roster
         viewFlipper.setDisplayedChild(1);
@@ -251,6 +253,13 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
                 finish();
             }
         });
+
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
 
@@ -268,7 +277,7 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
         moodImages.add(new Emoticon("IN LOVE", 2));
         moodImages.add(new Emoticon("ANGRY", 2));
         moodImages.add(new Emoticon("SICK", 2));
-        moodImages.add(new Emoticon("AFRAID", 2));
+        //moodImages.add(new Emoticon("AFRAID", 2));
     }
 
     /**
@@ -306,6 +315,8 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
             else pos = 0;
         }
         moodRoster.setCurrentItem(pos);
+        String emotion = moodImages.get(pos).getEmotionalState();
+        moodIndicator.setText(emotion); //for the indicator in xml
 
         chosenEmoticon.setImageResource(new Emoticon(moodEvent.getEmotionalState(), 1).getImageLink());
     }
@@ -405,7 +416,10 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
 
             @Override
             public void onPageSelected(int position) {
-                moodEvent.setEmotionalState(moodImages.get(position).getEmotionalState());
+                //moodEvent.setEmotionalState(moodImages.get(position).getEmotionalState());
+                String emotion = moodImages.get(position).getEmotionalState();
+                moodEvent.setEmotionalState(emotion); //for the object to be created
+                moodIndicator.setText(emotion); //for the indicator in xml
             }
 
             @Override

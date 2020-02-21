@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpLocations"
+    android:background="#ffc40d"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#ffc40d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_green" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1e7145"
+            android:text="HELP IS AROUND"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1e7145"
+            android:text="THE CORNER"
+            android:textStyle="bold"
+            android:textSize="33sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/AOME"
+                android:text="Access Open Minds Edmonton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+            <Button
+                android:id="@+id/CCC"
+                android:text="Cornerstone Counselling Centre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/MWIC"
+                android:text="Momentum Walk-In Counselling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/CCC2"
+                android:text="Community Counselling Centre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/DIY"
+                android:text="Drop-In YEG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/TFC"
+                android:text="THE FAMILY CENTRE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/UOAFOECS"
+                android:text="University of Alberta Faculty of Education Clinical Services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/PCOE"
+                android:text="Pride Centre of Edmonton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/SACOE"
+                android:text="Sexual Assault Centre of Edmonton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/YE"
+                android:text="YWCA Edmonton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/IFS"
+                android:text="Islamic Family Services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/CACS"
+                android:text="Counselling Clinical Services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+            <Button
+                android:id="@+id/EASNOA"
+                android:text="Eating Disorder Support Network of Alberta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+
+            <Button
+                android:id="@+id/SOA"
+                android:text="Schizophrenia of Alberta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="19.5sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -17,13 +17,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <ImageButton
+            <TextView
                 android:layout_width="wrap_content"
-                android:background="#1e7145"
                 android:layout_height="wrap_content"
-                android:id="@+id/activity_feed_show_profile"
-                android:src= "@drawable/ic_home_black_24dp"/>
-
+                android:layout_gravity="center_horizontal"
+                android:textSize="7sp" />
 
         </LinearLayout>
 
@@ -31,51 +29,122 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <com.google.android.material.button.MaterialButton
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <ImageView
                 android:id="@+id/feedButton"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
+                android:layout_width="10dp"
                 android:layout_weight="1"
-                android:text="@string/feed"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp"
                 android:textStyle="bold"
-                app:backgroundTint="#ffc40d"
-                app:cornerRadius="0dp"
-                app:iconPadding="0dp"
+                app:srcCompat="@drawable/connectnew"
                 app:strokeColor="#FFFFFF"
-                app:strokeWidth="2dp"
-                android:hint="FEED" />
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
 
 
-            <com.google.android.material.button.MaterialButton
+            <ImageView
                 android:id="@+id/userButton"
-                style="@style/Widget.AppCompat.Button.Borderless"
-                android:layout_width="fill_parent"
+                android:layout_width="10dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/user"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
-                android:textSize="24sp"
                 android:textStyle="bold"
-                app:cornerRadius="0dp"
+                app:srcCompat="@drawable/home"
                 app:strokeColor="#FFFFFF"
-                app:strokeWidth="2dp"
-                app:backgroundTint="#00FFFFFF"
-                android:hint="USER" />
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
 
-            <ImageButton
-                android:id="@+id/map_feed_button"
-                android:layout_width="wrap_content"
-                android:layout_height="74dp"
+            <ImageView
+                android:id="@+id/activity_feed_show_profile"
+                android:layout_width="10dp"
                 android:layout_weight="1"
-                android:adjustViewBounds="false"
-                android:cropToPadding="true"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/world_map" />
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:srcCompat="@drawable/account"
+                app:strokeColor="#FFFFFF"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/map_feed_button"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:srcCompat="@drawable/maps"
+                app:strokeColor="#FFFFFF"
+                />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/resource"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                app:srcCompat="@drawable/mapsblack"
+                app:strokeColor="#FFFFFF"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                />
+
+
 
         </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="5sp" />
+
 
         <SearchView
             android:layout_width="match_parent"
@@ -84,6 +153,12 @@
             android:queryHint="Search for Users..."
             android:theme="@android:style/Theme.Holo"
             android:background="@drawable/white_border"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="5sp" />
 
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout

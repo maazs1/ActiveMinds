@@ -265,7 +265,7 @@ public class CreateEventActivity extends AppCompatActivity implements OnMapReady
         moodImages.add(new Emoticon("IN LOVE", 2));
         moodImages.add(new Emoticon("ANGRY", 2));
         moodImages.add(new Emoticon("SICK", 2));
-        moodImages.add(new Emoticon("AFRAID", 2));
+        //moodImages.add(new Emoticon("AFRAID", 2));
     }
 
     /**

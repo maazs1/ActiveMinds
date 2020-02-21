@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bulimia"
+    android:background="#ffc40d"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#ffc40d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_green" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1e7145"
+            android:gravity="center"
+            android:text="BULIMIA NERVOSA"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="People with bulimia may secretly binge — eating large amounts of food with a loss of control over the eating — and then purge, trying to get rid of the extra calories in an unhealthy way"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#FFF"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Bulimia signs and symptoms may include:"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Being preoccupied with your body shape and weight"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Repeated episodes of eating abnormally large amounts of food in one sitting"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling a loss of control during bingeing — like you can't stop eating or can't control what you eat"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Forcing yourself to vomit or exercising too much to keep from gaining weight after bingeing"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Using laxatives, diuretics or enemas after eating when they're not needed"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Fasting, restricting calories or avoiding certain foods between binges"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Using dietary supplements or herbal products excessively for weight loss"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/findHelp"
+                android:text="Find Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

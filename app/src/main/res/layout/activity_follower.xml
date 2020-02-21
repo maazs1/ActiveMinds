@@ -24,6 +24,7 @@
     </ImageView>
 
     <TextView
+        android:fontFamily="@font/alef"
         android:id="@+id/author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,6 +35,7 @@
     </TextView>
 
     <TextView
+        android:fontFamily="@font/alef"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="10dp"
@@ -44,17 +46,21 @@
 
 
     <Button
+        android:fontFamily="@font/alef"
         android:id="@+id/follow_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:width="170dp"
         android:height="60dp"
+        android:background="#1e7145"
+        android:textColor="#ffc40d"
         android:onClick="Click">
 
     </Button>
 
     <TextView
+        android:fontFamily="@font/alef"
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,6 +78,7 @@
     </ImageView>
 
     <TextView
+        android:fontFamily="@font/alef"
         android:id="@+id/recentMoodDate"
         android:textSize="18dp"
         android:layout_width="wrap_content"
@@ -81,6 +88,7 @@
     </TextView>
 
     <TextView
+        android:fontFamily="@font/alef"
         android:id="@+id/recentMoodTime"
         android:textSize="18dp"
         android:layout_width="wrap_content"

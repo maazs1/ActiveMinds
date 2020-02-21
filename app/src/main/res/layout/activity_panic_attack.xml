@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PanicAttack"
+    android:background="#ffc40d"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/backButton1"
+        android:background="#ffc40d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_backspace_green" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="PANIC ATTACK"
+        android:textSize="33sp"
+        android:fontFamily="@font/alef"
+        android:textStyle="bold"
+        android:textColor="#1e7145"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:text="A panic attack is a sudden rush of intense fear or discomfort, which includes: racing or pounding heart, sweating, shaking or trembling, shortness of breath or feelings of being smothered, feeling of choking, feeling like you're about to die/ feelings of imminent death"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/findHelp"
+            android:text="Find Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_green2"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:fontFamily="@font/alef">
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

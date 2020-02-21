@@ -25,10 +25,10 @@
                 android:id="@+id/mood_roster_title"
                 android:layout_width="match_parent"
                 android:layout_height="113dp"
-                android:fontFamily="@font/roboto"
                 android:letterSpacing="0.1"
                 android:gravity="center"
                 android:text="@string/roster_title"
+                android:fontFamily="@font/alef"
                 android:textColor="#ffffff"
                 android:textSize="25sp" />
 
@@ -36,7 +36,7 @@
                 android:id="@+id/emotion_indicator"
                 android:layout_width="match_parent"
                 android:layout_height="52dp"
-                android:fontFamily="@font/roboto"
+                android:fontFamily="@font/alef"
                 android:gravity="center_horizontal"
                 android:letterSpacing="0.1"
                 android:text="HAPPY"
@@ -54,11 +54,11 @@
                 android:overScrollMode="never"/>
 
             <Button
+                android:fontFamily="@font/alef"
                 android:id="@+id/select_emoticon_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/emoticon_choice_btn"
-                android:fontFamily="@font/roboto"
                 android:letterSpacing="0.3"
                 android:textSize="20sp"
                 android:paddingLeft="30dp"
@@ -140,7 +140,7 @@
                             android:text="@string/new_mood_event"
                             android:textColor="#fff"
                             android:textSize="25sp"
-                            android:fontFamily="@font/roboto"
+                            android:fontFamily="@font/alef"
                             android:letterSpacing="0.1"
                             android:layout_marginTop="10dp"
                             android:layout_marginBottom="10dp">
@@ -168,12 +168,14 @@
                     android:padding="20dp"
                     android:background="@drawable/edit_text_border"
                     android:textColor="#fff"
+                    android:fontFamily="@font/alef"
                     android:layout_margin="20dp">
                 </TextView>
 
                 <!--REASON-->
                 <EditText
                     android:id="@+id/reason"
+                    android:fontFamily="@font/alef"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -189,6 +191,7 @@
 
                 <!--SITUATION-->
                 <TextView
+                    android:fontFamily="@font/alef"
                     android:id="@+id/social_situation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -220,6 +223,7 @@
                         android:theme="@style/SwitchThemeOverlay"/>
 
                     <TextView
+                        android:fontFamily="@font/alef"
                         android:id="@+id/img_toggle_txt"
                         android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
@@ -271,6 +275,7 @@
                         android:theme="@style/SwitchThemeOverlay"/>
 
                     <TextView
+                        android:fontFamily="@font/alef"
                         android:id="@+id/gps_toggle_txt"
                         android:layout_marginRight="10dp"
                         android:layout_marginLeft="10dp"
@@ -307,6 +312,7 @@
                     android:layout_marginTop="20dp">
 
                     <Button
+                        android:fontFamily="@font/alef"
                         android:id="@+id/submit_button"
                         android:text="SUBMIT"
                         android:layout_width="match_parent"
@@ -320,6 +326,7 @@
                     </Button>
 
                     <Button
+                        android:fontFamily="@font/alef"
                         android:id="@+id/cancel_button"
                         android:text="CANCEL"
                         android:layout_width="match_parent"

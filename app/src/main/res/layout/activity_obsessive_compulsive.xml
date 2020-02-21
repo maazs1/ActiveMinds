@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PanicAttack"
+    android:background="#ffc40d"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/backButton1"
+        android:background="#ffc40d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_keyboard_backspace_green" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="OBSESSIVE COMPULSIVE DISORDER"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            android:textColor="#1e7145"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:text="Obsessive Compulsive Disorder (OCD) involves unwanted and disturbing thoughts, images, or urges (obsessions) that intrude into a person’s mind and cause a great deal of anxiety or discomfort, which the person then tries to reduce by engaging in repetitive behaviors or mental acts (compulsions)"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:text="Obsessions are repeated thoughts, urges, or mental images that cause anxiety. Common symptoms include:"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Fear of germs or contamination"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Unwanted forbidden or taboo thoughts involving sex, religion, or harm"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Aggressive thoughts towards others or self"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Having things symmetrical or in a perfect order"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFF"
+            android:text="Compulsions are repetitive behaviors that a person with OCD feels the urge to do in response to an obsessive thought. Common compulsions include:"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"/>
+        <TextView
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Excessive cleaning and/or handwashing"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Ordering and arranging things in a particular, precise way"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Repeatedly checking on things, such as repeatedly checking to see if the door is locked or that the oven is off"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+        <TextView
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Compulsive counting"
+            android:textSize="23sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/findHelp"
+            android:text="Find Help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_green2"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:fontFamily="@font/alef">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BipolarDepressionMania"
+    android:background="#ffc40d"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#ffc40d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_green" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#1e7145"
+            android:textStyle="bold"
+            android:text="BIPOLAR DISORDER"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFF"
+                android:text="A chronic, recurring condition that includes cycles of extreme lows (or depression) and extreme highs (called hypomania or mania). Some Depressive symptoms may include:"
+                android:textSize="23sp"/>
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Constant sad, anxious, or empty mood"
+                android:textSize="23sp"
+                />
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Loss of interest in things that you once enjoyed, including sex"
+                android:textSize="23sp"
+                />
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling restless or irritable"
+                android:textSize="23sp"
+                />
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Irritability and anxiety"
+                android:textSize="23sp"
+                />
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Inability to focus, think, or make decisions"
+                android:textSize="23sp"
+                />
+            <TextView
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Low energy, fatigue, being slowed down"
+                android:textSize="23sp"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/findHelp"
+                android:text="Find Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

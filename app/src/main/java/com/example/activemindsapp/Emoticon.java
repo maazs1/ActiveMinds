@@ -27,7 +27,7 @@ import java.util.Map;
                 emoticonData.put("IN LOVE", R.drawable.in_love_cow_v1);
                 emoticonData.put("ANGRY", R.drawable.angry_cow_v1);
                 emoticonData.put("SICK", R.drawable.sick_cow_v1);
-                emoticonData.put("AFRAID", R.drawable.afraid_cow_v1);
+                //emoticonData.put("AFRAID", R.drawable.afraid_cow_v1);
 
             } else if(version == 2){
                 emoticonData.put("HAPPY", R.drawable.happy_cow_v2);
@@ -36,8 +36,18 @@ import java.util.Map;
                 emoticonData.put("IN LOVE", R.drawable.inlove_cow_v2);
                 emoticonData.put("ANGRY", R.drawable.angry_cow_v2);
                 emoticonData.put("SICK", R.drawable.sick_cow_v2);
-                emoticonData.put("AFRAID", R.drawable.afraid_cow_v2);
+                //emoticonData.put("AFRAID", R.drawable.afraid_cow_v2);
             }
+
+            else if(version == 3){
+                emoticonData.put("ANXIETY", R.drawable.happy_cow_v2);
+                emoticonData.put("DEPRESSION", R.drawable.sick_cow_v2);
+                emoticonData.put("STRESS", R.drawable.angry_cow_v2);
+                emoticonData.put("SCHIZOPHRENIA", R.drawable.sick_cow_v2);
+                emoticonData.put("EATING DISORDERS", R.drawable.sick_cow_v2);
+                emoticonData.put("GENDER AND SEXUAL DIVERSITY (LGBTQ2+)", R.drawable.afraid_cow_v2);
+            }
+
 
         }
 

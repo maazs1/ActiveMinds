@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -60,12 +61,13 @@ public class FeedPage extends AppCompatActivity {
     ArrayList<MoodEvent> feedDataList;
     SearchView feedSearchView;
     FloatingActionButton notificationButton;
-    Button userButton;
-    ImageButton mapButton;
+    ImageView userButton;
+    ImageView mapButton;
+    ImageView resourceButton;
     Date moodTimeStamp;
     String edit;
     private String name;
-    ImageButton userProfile;
+    ImageView userProfile;
 
     //Firebase setup
     private final FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -90,7 +92,7 @@ public class FeedPage extends AppCompatActivity {
 
         Intent intent = getIntent();
         name = intent.getStringExtra("account");
-
+        resourceButton = findViewById(R.id.resource);
 
         feedCollectionReference = db.collection("Users Account").document(name).collection("Following");
         collectionReference = db.collection("Users Account");
@@ -100,7 +102,7 @@ public class FeedPage extends AppCompatActivity {
         searchResultListener(name);
         recentMoodsListener();
 
-
+        HubResource();
         searchUsers();
         selectUser();
         openMoodMap();
@@ -111,6 +113,18 @@ public class FeedPage extends AppCompatActivity {
 
 
     } //End of onCreate
+
+    private void HubResource() {
+        resourceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FeedPage.this, HubPage.class);
+                startActivity(intent);
+
+            }
+        });
+
+    }
 
     /**
      * The list of people the User is following is accessed from the database and there most recent mood event is displayed

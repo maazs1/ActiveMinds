@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MajorDepression"
+    android:background="#ffc40d"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#ffc40d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_green" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="MAJOR DEPRESSION"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            android:textColor="#1e7145"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFF"
+                android:text="Major Depression or major depressive disorder causes ongoing, extreme feelings of sadness, helplessness, hopeless, and irritability. These feelings are usually a noticeable change from what’s “normal” for you, and they last for more than two weeks. It is a mood disorder accompanied by: "
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"/>
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Lasting sad, anxious, or “empty” mood"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Loss of interest in almost all activities"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Appetite and weight changes"
+                android:textSize="23sp"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Changes in sleep patterns, such as inability to sleep or sleeping too much"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Slowing of physical activity, speech, and thinking OR agitation, increased restlessness, and irritability"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Decreased energy, feeling tired or slowed down almost every day"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Ongoing feelings of worthlessness and/or feelings of undue guilt"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Trouble concentrating or making decisions"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/findHelp"
+                android:text="Find Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_green2"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StressPage"
+    android:background="#1e7145"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#1e7145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_yellow" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffc40d"
+            android:text="STRESS"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Stress is a normal response to situational pressures or demands, especially if they are perceived as threatening or dangerous. A certain amount of stress is a normal part of daily life. Small doses of stress help people meet deadlines, be prepared for presentations, be productive and arrive on time for important events. However, long-term stress can become harmful. When stress becomes overwhelming and prolonged, the risks for mental health problems increase."
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffc40d"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cognitive symptoms include:"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Difficulty concentrating or thinking"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Memory problems"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Negativity or lack of self-confidence"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Constant worrying"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Difficulty making decisions"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffc40d"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emotional symptoms include:"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Moodiness"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Memory problems"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Low morale"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Irritability"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling hopeless or helpless"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling apprehensive, anxious or nervous"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling depressed"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling unhappy or guilty"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Feeling agitated or unable to relax."
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:textColor="#ffc40d"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physical symptoms include:"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Headaches"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Muscle tension or other physical pain or discomfort"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Stomach problems"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Nausea, diarrhea or vomiting"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Loss of sex drive"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="• Rapid heart rate"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• High blood pressure"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Fatigue"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#ffc40d"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Behavioural symptoms include:"
+                android:textSize="25sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Changes in eating or sleeping patterns"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Social withdrawal"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Nervous habits such as nail biting, teeth grinding or foot tapping"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:textColor="#FFF"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Increased use of caffeine, cigarettes, alcohol or other drugs"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Neglect of family or work responsibilities"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+            <TextView
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Decline in performance or productivity"
+                android:textSize="23sp"
+                android:fontFamily="@font/alef"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/findHelp"
+                android:text="Find Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_yellow"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

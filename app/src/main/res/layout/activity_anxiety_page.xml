@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e7145"
+    android:orientation="vertical"
+    tools:context=".AnxietyPage">
+
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#1e7145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_yellow" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffc40d"
+        android:text="Click to learn more"
+        android:textSize="25sp"
+        android:fontFamily="@font/alef"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/generalized"
+            android:layout_gravity="center_horizontal"
+            android:text="Generalized Anxiety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_yellow"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:padding="10dp"
+            android:fontFamily="@font/alef">
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+
+        <Button
+            android:id="@+id/social_anxiety"
+            android:layout_gravity="center_horizontal"
+            android:text="Social Anxiety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_yellow"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:padding="10dp"
+            android:fontFamily="@font/alef">
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/panic"
+            android:layout_gravity="center_horizontal"
+            android:text="Panic Attack "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_yellow"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:padding="10dp"
+            android:fontFamily="@font/alef">
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="8dp" />
+
+        <Button
+            android:id="@+id/OCD"
+            android:layout_gravity="center_horizontal"
+            android:text="Obsessive Compulsive Disorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_yellow"
+            android:textColor="#FFF"
+            android:textSize="19.5sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:fontFamily="@font/alef">
+        </Button>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
