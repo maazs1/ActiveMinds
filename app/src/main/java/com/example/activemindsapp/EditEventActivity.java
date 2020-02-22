@@ -276,8 +276,8 @@ public class EditEventActivity extends AppCompatActivity implements OnMapReadyCa
         moodImages.add(new Emoticon("LAUGHING", 2));
         moodImages.add(new Emoticon("IN LOVE", 2));
         moodImages.add(new Emoticon("ANGRY", 2));
-        moodImages.add(new Emoticon("SICK", 2));
-        //moodImages.add(new Emoticon("AFRAID", 2));
+        //moodImages.add(new Emoticon("SICK", 2));
+        moodImages.add(new Emoticon("AFRAID", 2));
     }
 
     /**

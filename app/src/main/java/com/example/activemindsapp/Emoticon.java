@@ -26,8 +26,8 @@ import java.util.Map;
                 emoticonData.put("LAUGHING", R.drawable.laughing_cow_v1);
                 emoticonData.put("IN LOVE", R.drawable.in_love_cow_v1);
                 emoticonData.put("ANGRY", R.drawable.angry_cow_v1);
-                emoticonData.put("SICK", R.drawable.sick_cow_v1);
-                //emoticonData.put("AFRAID", R.drawable.afraid_cow_v1);
+                //emoticonData.put("SICK", R.drawable.sick_cow_v1);
+                emoticonData.put("AFRAID", R.drawable.cr);
 
             } else if(version == 2){
                 emoticonData.put("HAPPY", R.drawable.happy_cow_v2);
@@ -35,8 +35,8 @@ import java.util.Map;
                 emoticonData.put("LAUGHING", R.drawable.laughing_cow_v2);
                 emoticonData.put("IN LOVE", R.drawable.inlove_cow_v2);
                 emoticonData.put("ANGRY", R.drawable.angry_cow_v2);
-                emoticonData.put("SICK", R.drawable.sick_cow_v2);
-                //emoticonData.put("AFRAID", R.drawable.afraid_cow_v2);
+                //emoticonData.put("SICK", R.drawable.sick_cow_v2);
+                emoticonData.put("AFRAID", R.drawable.afraid_cow_v2);
             }
 
             else if(version == 3){
