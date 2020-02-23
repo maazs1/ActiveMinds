@@ -1,9 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IssuesPage">
+    tools:context=".IssuesPage"
+    android:background="#1e7145"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/backButton1"
+            android:background="#1e7145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_backspace_yellow" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffc40d"
+            android:text="SEXUAL AND GENDER DIVERSITY"
+            android:textSize="33sp"
+            android:fontFamily="@font/alef"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Sexual orientation and gender identity are integral aspects of everyone's sense of self. There are many diverse sexual and gender identities. Individuals may identify as straight or as part of the LGBTQ community. Lesbian, gay, bisexual, trans and queer identified (LGBTQ) people face higher risks for mental health issues due to societal factors such as discrimination and marginalization"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="LGBTQ people experience stigma and discrimination across their life spans and face higher rates of depression and anxiety than the general population"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="A Canadian Study found that support from family and friends reduced stress and contributed to positive mental health in young gays, lesbians and bisexuals"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="A US study of lesbian and gay parents found that support from family and friends, supportive workplaces and neighbourhoods, and low internalized homophobia promoted positive mental health. Lesbian and gay people with high internalized homophobia, living in states with anti-gay legislation showed the poorest mental health"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Experiencing positive responses to coming out is associated with reduced risk of substance abuse"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Two studies in the US found that 89% of lesbians and bisexual women experienced a negative reaction when they came out to their doctor"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="A study of medical students found that one quarter were significantly homophobic, and nine percent viewed homosexuality as a mental disorder"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Youth who identify with the LGBTQ community have been found to significantly reduce their internalized homophobia"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="8sp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/alef"
+                android:gravity="center"
+                android:text="Family acceptance of LGBTQ adolescents is associated with good mental and physical health in LGBTQ youth"
+                android:textColor="#FFF"
+                android:textSize="23sp" />
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/findHelp"
+                android:text="Find Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_yellow"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:fontFamily="@font/alef">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

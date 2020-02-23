@@ -25,17 +25,24 @@
         android:fontFamily="@font/alef"
         />
 
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/emotionEmoticon"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        >
 
 
         <Button
             android:id="@+id/generalized"
-            android:layout_gravity="center_horizontal"
             android:text="Generalized Anxiety"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

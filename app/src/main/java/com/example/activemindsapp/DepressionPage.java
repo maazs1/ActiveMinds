@@ -7,8 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class DepressionPage extends AppCompatActivity {
+    private ImageView image;
     private ImageButton backButton;
     Button majorDepression;
     Button SAD;
@@ -17,10 +19,14 @@ public class DepressionPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_depression_page);
+
+        image = findViewById(R.id.emotionEmoticon);
         backButton = findViewById(R.id.backButton1);
         majorDepression= findViewById(R.id.majorDepression);
         SAD = findViewById(R.id.SAD);
         BipolarDepression = findViewById(R.id.mania);
+
+        image.setImageResource(new Emoticon("DEPRESSION", 3).getImageLink());
 
         majorDepression.setOnClickListener(new View.OnClickListener() {
             @Override

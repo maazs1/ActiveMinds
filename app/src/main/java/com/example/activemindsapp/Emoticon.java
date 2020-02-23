@@ -22,28 +22,28 @@ import java.util.Map;
         private void populateEmoticonData(int version){
             if(version == 1){
                 emoticonData.put("HAPPY", R.drawable.mooood_logo);
-                emoticonData.put("SAD", R.drawable.sad_cow_v1);
+                emoticonData.put("SAD", R.drawable.circle_sad);
                 emoticonData.put("LAUGHING", R.drawable.laughing_cow_v1);
-                emoticonData.put("IN LOVE", R.drawable.in_love_cow_v1);
+                emoticonData.put("IN LOVE", R.drawable.circle_inlove);
                 emoticonData.put("ANGRY", R.drawable.angry_cow_v1);
                 //emoticonData.put("SICK", R.drawable.sick_cow_v1);
-                emoticonData.put("AFRAID", R.drawable.cr);
+                emoticonData.put("AFRAID", R.drawable.cricle_afraid);
 
             } else if(version == 2){
                 emoticonData.put("HAPPY", R.drawable.happy_cow_v2);
-                emoticonData.put("SAD", R.drawable.sad_cow_v2);
+                emoticonData.put("SAD", R.drawable.circle_sad);
                 emoticonData.put("LAUGHING", R.drawable.laughing_cow_v2);
-                emoticonData.put("IN LOVE", R.drawable.inlove_cow_v2);
+                emoticonData.put("IN LOVE", R.drawable.circle_inlove);
                 emoticonData.put("ANGRY", R.drawable.angry_cow_v2);
                 //emoticonData.put("SICK", R.drawable.sick_cow_v2);
-                emoticonData.put("AFRAID", R.drawable.afraid_cow_v2);
+                emoticonData.put("AFRAID", R.drawable.cricle_afraid);
             }
 
             else if(version == 3){
-                emoticonData.put("ANXIETY", R.drawable.happy_cow_v2);
-                emoticonData.put("DEPRESSION", R.drawable.sick_cow_v2);
-                emoticonData.put("STRESS", R.drawable.angry_cow_v2);
-                emoticonData.put("SCHIZOPHRENIA", R.drawable.sick_cow_v2);
+                emoticonData.put("ANXIETY", R.drawable.circle_anxiety);
+                emoticonData.put("DEPRESSION", R.drawable.circle_depression);
+                emoticonData.put("STRESS", R.drawable.circle_stress);
+                emoticonData.put("SCHIZOPHRENIA", R.drawable.circle_schiz);
                 emoticonData.put("EATING DISORDERS", R.drawable.sick_cow_v2);
                 emoticonData.put("GENDER AND SEXUAL DIVERSITY (LGBTQ2+)", R.drawable.afraid_cow_v2);
             }
