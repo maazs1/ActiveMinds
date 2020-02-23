@@ -21,20 +21,20 @@ import java.util.Map;
          **/
         private void populateEmoticonData(int version){
             if(version == 1){
-                emoticonData.put("HAPPY", R.drawable.mooood_logo);
+                emoticonData.put("HAPPY", R.drawable.circle_happy);
                 emoticonData.put("SAD", R.drawable.circle_sad);
-                emoticonData.put("LAUGHING", R.drawable.laughing_cow_v1);
+                emoticonData.put("LAUGHING", R.drawable.circle_laughing);
                 emoticonData.put("IN LOVE", R.drawable.circle_inlove);
-                emoticonData.put("ANGRY", R.drawable.angry_cow_v1);
+                emoticonData.put("ANGRY", R.drawable.circle_angry);
                 //emoticonData.put("SICK", R.drawable.sick_cow_v1);
                 emoticonData.put("AFRAID", R.drawable.cricle_afraid);
 
             } else if(version == 2){
-                emoticonData.put("HAPPY", R.drawable.happy_cow_v2);
+                emoticonData.put("HAPPY", R.drawable.circle_happy);
                 emoticonData.put("SAD", R.drawable.circle_sad);
-                emoticonData.put("LAUGHING", R.drawable.laughing_cow_v2);
+                emoticonData.put("LAUGHING", R.drawable.circle_laughing);
                 emoticonData.put("IN LOVE", R.drawable.circle_inlove);
-                emoticonData.put("ANGRY", R.drawable.angry_cow_v2);
+                emoticonData.put("ANGRY", R.drawable.circle_angry);
                 //emoticonData.put("SICK", R.drawable.sick_cow_v2);
                 emoticonData.put("AFRAID", R.drawable.cricle_afraid);
             }
@@ -44,8 +44,8 @@ import java.util.Map;
                 emoticonData.put("DEPRESSION", R.drawable.circle_depression);
                 emoticonData.put("STRESS", R.drawable.circle_stress);
                 emoticonData.put("SCHIZOPHRENIA", R.drawable.circle_schiz);
-                emoticonData.put("EATING DISORDERS", R.drawable.sick_cow_v2);
-                emoticonData.put("GENDER AND SEXUAL DIVERSITY (LGBTQ2+)", R.drawable.afraid_cow_v2);
+                emoticonData.put("EATING DISORDERS", R.drawable.circle_eating_disorder);
+                emoticonData.put("GENDER AND SEXUAL DIVERSITY (LGBTQ2+)", R.drawable.circle_gender);
             }
 
 

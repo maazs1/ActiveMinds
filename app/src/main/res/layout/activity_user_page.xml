@@ -46,7 +46,7 @@
                 android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                app:srcCompat="@drawable/connectnew"
+                app:srcCompat="@drawable/circle_white_follow"
                 app:strokeColor="#FFFFFF"
                 />
             <ImageView
@@ -67,7 +67,7 @@
                 android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                app:srcCompat="@drawable/home"
+                app:srcCompat="@drawable/circle_profile_dark"
                 app:strokeColor="#FFFFFF"
                 />
             <ImageView
@@ -87,7 +87,7 @@
                 android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                app:srcCompat="@drawable/account"
+                app:srcCompat="@drawable/circle_settings"
                 app:strokeColor="#FFFFFF"
                 />
             <ImageView
@@ -106,7 +106,7 @@
                 android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                app:srcCompat="@drawable/maps"
+                app:srcCompat="@drawable/circle_maps"
                 app:strokeColor="#FFFFFF"
                 />
             <ImageView
@@ -126,7 +126,7 @@
                 android:scaleType="fitCenter"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
-                app:srcCompat="@drawable/mapsblack"
+                app:srcCompat="@drawable/circle_hub"
                 app:strokeColor="#FFFFFF"
                 />
 

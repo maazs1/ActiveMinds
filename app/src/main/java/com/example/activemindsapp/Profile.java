@@ -29,10 +29,10 @@ import java.util.concurrent.Semaphore;
 
 public class Profile extends AppCompatActivity {
     private SharedPreferences sp;
-    TextView profileName;
-    TextView followers;
-    TextView following;
-    TextView posts;
+    private TextView profileName;
+    private TextView followers;
+    private TextView following;
+    private TextView posts;
     private ArrayList<follow> followersList;
     private ArrayList<follow> followingList;
     private ArrayList<String> postList;
@@ -58,6 +58,10 @@ public class Profile extends AppCompatActivity {
         collectionReference= db.collection("Users Account").document(name).collection("Following");
         posts= findViewById(R.id.postsNumber);
         postList = new ArrayList<>();
+
+        followersList.clear();
+        followingList.clear();
+        postList.clear();
 
         countPosts();
         countFollowers();
@@ -143,7 +147,7 @@ public class Profile extends AppCompatActivity {
 
     }
 
-    public void showFollowers(){
+    private void showFollowers(){
 
         followers.setOnClickListener(new View.OnClickListener() {
             @Override
