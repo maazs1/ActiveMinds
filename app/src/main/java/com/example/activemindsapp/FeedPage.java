@@ -184,9 +184,13 @@ public class FeedPage extends AppCompatActivity {
 
                                             }
 
+
                                             Collections.sort(feedDataList, new Comparator<MoodEvent>() {
                                                 public int compare(MoodEvent o1, MoodEvent o2) {
-                                                    return o2.getTimeStamp().compareTo(o1.getTimeStamp());
+                                                    if (o1.getTimeStamp()!= null && o2.getTimeStamp()!= null){
+                                                        return o2.getTimeStamp().compareTo(o1.getTimeStamp());
+                                                    }
+                                                    return 0;
                                                 }
                                             });
                                             moodEventAdapter.notifyDataSetChanged();
@@ -306,10 +310,12 @@ public class FeedPage extends AppCompatActivity {
 
                                                     Collections.sort(feedDataList, new Comparator<MoodEvent>() {
                                                         public int compare(MoodEvent o1, MoodEvent o2) {
-                                                            return o2.getTimeStamp().compareTo(o1.getTimeStamp());
+                                                            if (o1.getTimeStamp()!= null && o2.getTimeStamp()!= null){
+                                                                return o2.getTimeStamp().compareTo(o1.getTimeStamp());
+                                                            }
+                                                            return 0;
                                                         }
                                                     });
-
                                                     searchResultAdapter.notifyDataSetChanged();
                                                 }
                                             });
