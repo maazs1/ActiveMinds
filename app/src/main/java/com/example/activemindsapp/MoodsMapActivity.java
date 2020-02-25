@@ -96,7 +96,7 @@ public class MoodsMapActivity extends FragmentActivity implements OnMapReadyCall
                 if(mood.getEmotionalState().equals("HAPPY")){
                     int height = 150;
                     int width = 150;
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.mooood_logo);
+                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.circle_happy);
                     Bitmap b=bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
                     Marker marker = gmap.addMarker(new MarkerOptions()
@@ -110,7 +110,7 @@ public class MoodsMapActivity extends FragmentActivity implements OnMapReadyCall
                 if(mood.getEmotionalState().equals("SAD")){
                     int height = 150;
                     int width = 150;
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.sad_cow_v1);
+                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.circle_sad);
                     Bitmap b=bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
                     Marker marker = gmap.addMarker(new MarkerOptions()
@@ -124,7 +124,7 @@ public class MoodsMapActivity extends FragmentActivity implements OnMapReadyCall
                 if(mood.getEmotionalState().equals("LAUGHING")){
                     int height = 150;
                     int width = 150;
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.laughing_cow_v1);
+                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.circle_laughing);
                     Bitmap b=bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
                     Marker marker = gmap.addMarker(new MarkerOptions()
@@ -137,7 +137,7 @@ public class MoodsMapActivity extends FragmentActivity implements OnMapReadyCall
                 if(mood.getEmotionalState().equals("IN LOVE")){
                     int height = 150;
                     int width = 150;
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.in_love_cow_v1);
+                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.circle_inlove);
                     Bitmap b=bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
                     Marker marker = gmap.addMarker(new MarkerOptions()
@@ -150,7 +150,7 @@ public class MoodsMapActivity extends FragmentActivity implements OnMapReadyCall
                 if(mood.getEmotionalState().equals("ANGRY")){
                     int height = 150;
                     int width = 150;
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.angry_cow_v1);
+                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.circle_angry);
                     Bitmap b=bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
                     Marker marker = gmap.addMarker(new MarkerOptions()
@@ -160,23 +160,11 @@ public class MoodsMapActivity extends FragmentActivity implements OnMapReadyCall
                             .icon(BitmapDescriptorFactory.fromBitmap(smallMarker))
                     );
                 }
-                if(mood.getEmotionalState().equals("SICK")){
-                    int height = 150;
-                    int width = 150;
-                    BitmapDrawable bitmapdraw=(BitmapDrawable)getResources().getDrawable(R.drawable.sick_cow_v1);
-                    Bitmap b=bitmapdraw.getBitmap();
-                    Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
-                    Marker marker = gmap.addMarker(new MarkerOptions()
-                            .position(latlng)
-                            .title(author)
-                            .snippet(infoWindow)
-                            .icon(BitmapDescriptorFactory.fromBitmap(smallMarker))
-                    );
-                }
+
                 if(mood.getEmotionalState().equals("AFRAID")) {
                     int height = 150;
                     int width = 150;
-                    BitmapDrawable bitmapdraw = (BitmapDrawable) getResources().getDrawable(R.drawable.afraid_cow_v1);
+                    BitmapDrawable bitmapdraw = (BitmapDrawable) getResources().getDrawable(R.drawable.cricle_afraid);
                     Bitmap b = bitmapdraw.getBitmap();
                     Bitmap smallMarker = Bitmap.createScaledBitmap(b, width, height, false);
                     Marker marker = gmap.addMarker(new MarkerOptions()
