@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.activemindsapp">
+    package="com.activeminds.activemindsapp">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -29,41 +29,41 @@
         android:roundIcon="@mipmap/ic_activeminds_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Anorexia"></activity>
-        <activity android:name=".Bulimia" />
-        <activity android:name=".Binge" />
-        <activity android:name=".EatingDisorder" />
-        <activity android:name=".Schizophrenia" />
-        <activity android:name=".SchizophreniaofAlberta" />
-        <activity android:name=".EatingDisorderSupportNetworkofAlberta" />
-        <activity android:name=".CounsellingClinicalServices" />
-        <activity android:name=".IslamicFamilyServices" />
-        <activity android:name=".YWCAEdmonton" />
-        <activity android:name=".SexualAssaultCentreofEdmonton" />
-        <activity android:name=".PrideCentreofEdmonton" />
-        <activity android:name=".UniversityofAlbertaFaculty" />
-        <activity android:name=".THEFAMILYCENTRE" />
-        <activity android:name=".DropInYEG" />
-        <activity android:name=".CommunityCounsellingCentre" />
-        <activity android:name=".MomentumWalkInCounselling" />
-        <activity android:name=".CornerstoneCounsellingCentre" />
-        <activity android:name=".AccessOpenMindsEdmonton" />
-        <activity android:name=".HelpLocations" />
-        <activity android:name=".BipolarDepressionMania" />
-        <activity android:name=".SeasonalAD" />
-        <activity android:name=".MajorDepression" />
-        <activity android:name=".ObsessiveCompulsive" />
-        <activity android:name=".SocialAnxiety" />
-        <activity android:name=".GeneralAnxiety" />
-        <activity android:name=".PanicAttack" />
+        <activity android:name="com.activeminds.activemindsapp.Anorexia"></activity>
+        <activity android:name="com.activeminds.activemindsapp.Bulimia" />
+        <activity android:name="com.activeminds.activemindsapp.Binge" />
+        <activity android:name="com.activeminds.activemindsapp.EatingDisorder" />
+        <activity android:name="com.activeminds.activemindsapp.Schizophrenia" />
+        <activity android:name="com.activeminds.activemindsapp.SchizophreniaofAlberta" />
+        <activity android:name="com.activeminds.activemindsapp.EatingDisorderSupportNetworkofAlberta" />
+        <activity android:name="com.activeminds.activemindsapp.CounsellingClinicalServices" />
+        <activity android:name="com.activeminds.activemindsapp.IslamicFamilyServices" />
+        <activity android:name="com.activeminds.activemindsapp.YWCAEdmonton" />
+        <activity android:name="com.activeminds.activemindsapp.SexualAssaultCentreofEdmonton" />
+        <activity android:name="com.activeminds.activemindsapp.PrideCentreofEdmonton" />
+        <activity android:name="com.activeminds.activemindsapp.UniversityofAlbertaFaculty" />
+        <activity android:name="com.activeminds.activemindsapp.THEFAMILYCENTRE" />
+        <activity android:name="com.activeminds.activemindsapp.DropInYEG" />
+        <activity android:name="com.activeminds.activemindsapp.CommunityCounsellingCentre" />
+        <activity android:name="com.activeminds.activemindsapp.MomentumWalkInCounselling" />
+        <activity android:name="com.activeminds.activemindsapp.CornerstoneCounsellingCentre" />
+        <activity android:name="com.activeminds.activemindsapp.AccessOpenMindsEdmonton" />
+        <activity android:name="com.activeminds.activemindsapp.HelpLocations" />
+        <activity android:name="com.activeminds.activemindsapp.BipolarDepressionMania" />
+        <activity android:name="com.activeminds.activemindsapp.SeasonalAD" />
+        <activity android:name="com.activeminds.activemindsapp.MajorDepression" />
+        <activity android:name="com.activeminds.activemindsapp.ObsessiveCompulsive" />
+        <activity android:name="com.activeminds.activemindsapp.SocialAnxiety" />
+        <activity android:name="com.activeminds.activemindsapp.GeneralAnxiety" />
+        <activity android:name="com.activeminds.activemindsapp.PanicAttack" />
         <activity android:name=".frag" />
-        <activity android:name=".IssuesPage" />
-        <activity android:name=".StressPage" />
-        <activity android:name=".DepressionPage" />
-        <activity android:name=".AnxietyPage" />
-        <activity android:name=".HubPage" />
-        <activity android:name=".newFollowing" />
-        <activity android:name=".newFollowPage" />
+        <activity android:name="com.activeminds.activemindsapp.IssuesPage" />
+        <activity android:name="com.activeminds.activemindsapp.StressPage" />
+        <activity android:name="com.activeminds.activemindsapp.DepressionPage" />
+        <activity android:name="com.activeminds.activemindsapp.AnxietyPage" />
+        <activity android:name="com.activeminds.activemindsapp.HubPage" />
+        <activity android:name="com.activeminds.activemindsapp.newFollowing" />
+        <activity android:name="com.activeminds.activemindsapp.newFollowPage" />
         <!--
      The API key for Google Maps-based APIs is defined as a string resource.
      (See the file "res/values/google_maps_api.xml").
@@ -77,14 +77,14 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MoodsMapActivity"
+            android:name="com.activeminds.activemindsapp.MoodsMapActivity"
             android:label="@string/title_activity_user_feed_map" />
         <activity
-            android:name=".FeedMapActivity"
+            android:name="com.activeminds.activemindsapp.FeedMapActivity"
             android:label="@string/title_activity_mood_map" /> <!-- Configure File Provider -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.activemindsapp.fileprovider"
+            android:authorities="com.activeminds.activemindsapp.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -92,8 +92,8 @@
                 android:resource="@xml/filepaths" />
         </provider>
 
-        <activity android:name=".followerActivity" />
-        <activity android:name=".FeedPage" />
+        <activity android:name="com.activeminds.activemindsapp.followerActivity" />
+        <activity android:name="com.activeminds.activemindsapp.FeedPage" />
 
         <meta-data
             android:name="preloaded_fonts"
@@ -103,31 +103,31 @@
             android:name=".MapsActivity"
             android:label="MapsActivity" />
         <activity
-            android:name=".ShowEventActivity"
+            android:name="com.activeminds.activemindsapp.ShowEventActivity"
             android:label="ShowEventActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".CreateEventActivity"
+            android:name="com.activeminds.activemindsapp.CreateEventActivity"
             android:label="CreateEventActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".EditEventActivity"
+            android:name="com.activeminds.activemindsapp.EditEventActivity"
             android:label="@string/title_activity_user_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".UserPage"
+            android:name="com.activeminds.activemindsapp.UserPage"
             android:label="@string/title_activity_user_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".NotificationActivity"
+            android:name="com.activeminds.activemindsapp.NotificationActivity"
             android:label="NotificationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Profile"
+            android:name="com.activeminds.activemindsapp.Profile"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".LoginPage" />
+        <activity android:name="com.activeminds.activemindsapp.LoginPage" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.activeminds.activemindsapp.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

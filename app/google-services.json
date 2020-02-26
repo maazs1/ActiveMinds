@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:11607081308:android:c53e4c1719928750a88199",
+        "android_client_info": {
+          "package_name": "com.activeminds.activemindsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11607081308-m5mm3bv1a096rj45mtpumi36srmuf9pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdugOXRr-U0Lh5xVZV9CIsbmfvf1zYuas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11607081308-m5mm3bv1a096rj45mtpumi36srmuf9pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:11607081308:android:347fb501e67e5600a88199",
         "android_client_info": {
           "package_name": "com.example.activemindsapp"
