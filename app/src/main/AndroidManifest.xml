@@ -128,6 +128,7 @@
         <activity android:name="com.activeminds.activemindsapp.LoginPage" />
         <activity
             android:name="com.activeminds.activemindsapp.MainActivity"
+            android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
