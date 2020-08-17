@@ -13,7 +13,6 @@ import java.util.ArrayList;
 
 /**
  * This is an adapter for displaying notifications in NotificationActivity
- * Implementation is derived from lab lectures
  **/
 public class followAdapter extends ArrayAdapter<follow> {
 
