@@ -1,6 +1,6 @@
 # ActiveMinds - Java with Firebase
 
-Visit my app on Google PlayStore by searching "ActiveMinds_UAlberta" or click on https://play.google.com/store/apps/details?id=com.activeminds.activemindsapp !
+Visit the app on Google PlayStore by searching "ActiveMinds_UAlberta" or click on https://play.google.com/store/apps/details?id=com.activeminds.activemindsapp !
 
 The goal of this app is oriented towards reducing stigma towards Mental Health, promoting positive mental health, raising awareness, and serving a 
 collaboration between students and the mental health community. This application is catered towards building a safe community where users can interact 
